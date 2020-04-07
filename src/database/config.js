@@ -1,8 +1,11 @@
 module.exports = {
-    dialect: 'sqlite',
-    storage: 'src/database/todos.db',
-    define: {
-        timestamps: true,
-        underscored: true
-    }
-}
+  host: "database",
+  dialect: "postgres",
+  username: "postgres",
+  password: "postgres",
+  database: "postgres",
+  define: {
+    timestamps: true,
+    underscored: true
+  }
+};

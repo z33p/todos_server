@@ -6,7 +6,7 @@ This app performs the 5 HTTP methods (GET, POST, PUT, PATCH, DELETE). All end-po
 
 ## Todo Model:
 | Attribute    |  Type  |  
-|---|---|------|---|----|
+|------------|-------|
 |    Title     | STRING |
 |  Description |  TEXT  |
 |    isDone    |  BOOL  |
